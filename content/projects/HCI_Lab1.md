@@ -1,7 +1,7 @@
 +++
 title: "Create a blog"
 date: 2023-01-30
-description = "I created a personal website that contains some basic information about me and my studies. The following will show the process of creating my website.."
+description = "I created a personal website that contains some basic information about me and my studies. The following will show the process of creating my website."
 +++
 
 
