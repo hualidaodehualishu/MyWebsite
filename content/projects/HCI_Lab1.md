@@ -4,7 +4,6 @@ date: 2023-01-30
 description = "I created a personal website that contains some basic information about me and my studies. The following will show the process of creating my website."
 +++
 
-
 ## create process
 
 I created my personal page using Hugo. After creating a new sit, you can download the themes you like from the Hugo page according to your preferences. After initializing git with git init, run the following command to download the hugo-coder theme in the theme directory，using the submodule command.
