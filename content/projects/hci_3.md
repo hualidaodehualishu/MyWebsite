@@ -1,6 +1,29 @@
----
-title: "Hci_3"
-date: 2023-01-30T04:02:12+01:00
-draft: true
----
++++ 
+draft = true
+date = 2023-01-30
+title = "Unity3D Games to Mobile Phones"
+
++++
+
+## Deploy Unity3D games to mobile phones
+In this lab, I have implemented the task of deploying the unity play ball game from lab2 on the cell phone. Unlike lab2, there is no control key on the cell phone to manipulate the objects up, down, left, right, and right, so the sensors of the cell phone are used to manipulate the movement of the objects in order to realize the movement of the objects on the cell phone.
+
+
+An important concept in cell phone operation games is Accelerometer：
+```html
+Use the accelerometer to measure the acceleration of a device. This is useful to control content by moving a device around. It reports the acceleration measured on a device both due to moving the device around, and due to gravity pulling the device down. You can use GravitySensor and LinearAccelerationSensor to get separate values for these.
+```
+To achieve this, I changed the input system in the player to that of the mobile system.
+
+```html
+instead of rb.AddForce(movement * speed), we will use rb.AddForce(accelerometer_values).
+```
+
+By changing the script and xcode deployment, the game was successfully implemented on mobile.This is a picture of the project deployed on a cell phone：
+![IMG_0553.jpg](https://s2.loli.net/2023/01/30/t9Y3bIoPpBJDS6h.jpg)
+
+##Some difficult points
+In this lab, we encountered problems with deployment, especially from computer to cell phone, mainly focusing on the issue of cell phone permissions. Iphone phones require a lot of permissions to deploy applications and most importantly to have an Apple developer account, without which it is impossible to use xcdoe for application deployment. In addition, when setting up the project, you should pay attention to the version of ios and the addition of scenarios
+
+
 
