@@ -14,4 +14,4 @@ I have done a few different course projects, you can open my GitHub on:
 
 
 If you have any questions you can contact me：
-xuan.zhou@telecon sud-paris.eu
+xuan.zhou@telecon-sudparis.eu
