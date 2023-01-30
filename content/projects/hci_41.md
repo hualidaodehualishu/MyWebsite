@@ -1,8 +1,6 @@
 +++ 
-draft = true
-date = 2023-01-30
+date = "2023-01-30"
 title = "Play in VR"
-
 +++
 
 ##Play in VR
